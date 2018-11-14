@@ -6,7 +6,7 @@ http.createServer(function(request,response){
 	response.end();           //close connection
 }).listen(8080);		  // Listen for connections on this port
 
-console.log("Listening on port 8080")
+console.log("Listening on port 8080..Press ctrl+c to end")
 
 //node nodeServer.js  (to run the server)
 //curl http://localhost:8080
