@@ -1,5 +1,6 @@
 var http=require('http') //how we require modules
 
+//create server object
 http.createServer(function(request,response){
 	response.writeHead(200);  //status code in header
 	response.write("<h1 align=center>Hello Sushmitha</h1>");  //Response body
