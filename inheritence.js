@@ -1,6 +1,6 @@
 class Employee{
 		constructor(empno,empname){
-			this.empno=empno;
+			this.empno=empno;        //"this" specifies the instance property
 			this.empname=empname;
 			}
 		DisplayEmployee(){
